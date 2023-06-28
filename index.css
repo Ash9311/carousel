@@ -1,24 +1,28 @@
 .carousel-container {
    
-    padding-top: 50%;
     display: flex;
     flex-direction: row;
 
   }
   
   .carousel {
-    
-    height: 100px;
-    width: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    top: 50%;
+    padding-top: 3rem;
+    width: 100%;
+   
   }
   
   .carousel img {
-    width: 30%;
+    width: 100%;
     
   }
   
   .prev-btn,
   .next-btn {
+    margin-top: -7.58rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
